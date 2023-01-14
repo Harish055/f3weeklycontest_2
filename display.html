@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Api</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container2">
+        <div class="map">
+            <h1 id="heading2">Weather Api</h1>
+            <pre id="pre">  Lat: <i id="lat">12</i>                              Long: <i id="long">23</i></pre>
+            <iframe src="https://maps.google.com/maps?q=35.856737, 10.606619&z=15&output=embed" width="360" height="270" frameborder="0" style="border:0"></iframe>
+        </div>
+        <div class="details">
+            <h1>Weather Data</h1>
+            <div id="data1">
+                Location: <i id="location"></i> <br>
+                Long: <i id="longit"></i> <br>
+                Lat: <i id="'latit"></i><br>
+                Timezone: <i id="tm"></i><br>
+                Wind speed: <i id="wp"></i><br>
+                Pressure: <i id="pr"></i><br>
+                Humidity: <i id="hu"></i><br>
+                Sea Level: <i id="sea"></i><br>
+                Feels like: <i id="fl"></i><br>
+            </div>
+        </div>
+       
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
